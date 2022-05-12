@@ -1,0 +1,39 @@
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    height: 32rem;
+    object-fit: contain;    
+  }
+body {
+    overflow-y: hidden;
+}
+.carousel { 
+    width:640px; 
+    height:360px; 
+}
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+@media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+    }
+.icon {
+  color: blue;
+  font-size: 30px;
+  text-shadow: 2px 2px 6px blue;
+}
